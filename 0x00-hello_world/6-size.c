@@ -12,7 +12,7 @@ int main(void)
 	long int LongIntType;
 	long long int LongLongIntType;
 
-	printf("Size of a char: %zu bytes(s)\n", sizeof(CharType));
+	printf("Size of a char: %zu byte(s)\n", sizeof(CharType));
 	printf("Size of an int: %zu byte(s)\n", sizeof(IntType));
 	printf("Size of a long int: %zu byte(s)\n", sizeof(LongIntType));
 	printf("Size of a long long int: %zu byte(s)\n", sizeof(LongLongIntType));
