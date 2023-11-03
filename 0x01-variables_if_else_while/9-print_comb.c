@@ -9,7 +9,7 @@
 
 int main(void)
 {
-	int LowerLetter = 1;
+	int LowerLetter = 0;
 
 	while (LowerLetter <= 9)
 	{

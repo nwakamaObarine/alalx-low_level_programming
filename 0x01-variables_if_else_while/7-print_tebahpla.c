@@ -12,7 +12,7 @@ int main(void)
 {
 	char arine;
 
-	for(arine = 'z'; arine >=  'a'; arine--)
+	for (arine = 'z'; arine >=  'a'; arine--)
 	{
 		putchar(arine);
 	}
