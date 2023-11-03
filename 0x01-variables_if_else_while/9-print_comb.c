@@ -9,12 +9,12 @@
 
 int main(void)
 {
-	char LowerLetter = '1';
+	int LowerLetter = 1;
 
-	while (LowerLetter <= '9')
+	while (LowerLetter <= 9)
 	{
-		putchar(LowerLetter);
-		if (LowerLetter < '9')
+		putchar(LowerLetter + '0');
+		if (LowerLetter < 9)
 		{
 		putchar(',');
 		putchar(' ');
