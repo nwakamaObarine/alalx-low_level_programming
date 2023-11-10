@@ -2,7 +2,7 @@
 
 /**
  * _abs - print positive number even when it recieves a negative
- *@int: data type to return
+ *@n: data type to return
  *
  * Return: 0
  */
