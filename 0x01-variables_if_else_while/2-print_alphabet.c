@@ -10,12 +10,11 @@
 
 int main(void)
 {
-	char LowerLetter = 'a';
+	char LowerLetter;
 
-	while (LowerLetter != 'z')
+	for (LowerLetter = 'a'; LowerLetter <= 'z'; LowerLetter++)
 	{
 		putchar(LowerLetter);
-		LowerLetter += 1;
 	}
 	putchar('\n');
 	return (0);
