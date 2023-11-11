@@ -8,7 +8,7 @@
 
 int main(void)
 {
-	long int First = 1, Second = 2, Next = First + Second;
+	long int First = 0, Second = 1, Next = First + Second;
 	float Total = 0;
 
 	while (1)
@@ -16,13 +16,13 @@ int main(void)
 		Next = First + Second;
 
 		if (Next > 4000000)
-		
+
 			break;
-		
-		if (Next % 2 == 0)
-		
+
+		if ((Next % 2) == 0)
+
 			Total += Next;
-		
+
 		First = Second;
 		Second = Next;
 	}
