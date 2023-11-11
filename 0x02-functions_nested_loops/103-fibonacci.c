@@ -8,7 +8,6 @@
 
 int main(void)
 {
-	int count = 3;
 	long int First = 1, Second = 2, Next = First + Second, Total = 0;
 
 	while (1)
@@ -27,4 +26,6 @@ int main(void)
 		Second = Next;
 	}
 	printf("%lu\n", Total);
+
+	return (0);
 }
