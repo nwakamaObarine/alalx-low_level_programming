@@ -10,11 +10,7 @@ void print_diagonal(int n)
 {
 	int num, zee;
 
-	if (n <= 0)
-	{
-		_putchar('\n');
-	}
-	else
+	if (n > 0)
 	{
 		for (num = 1; num <= n; num++)
 		{
@@ -33,6 +29,9 @@ void print_diagonal(int n)
 			}
 			_putchar('\n');
 		}
-	_putchar('\n');
+	}
+	else
+	{
+		_putchar('\n');
 	}
 }
