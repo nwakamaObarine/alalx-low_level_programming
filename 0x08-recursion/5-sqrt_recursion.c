@@ -1,9 +1,10 @@
 #include "main.h"
 /**
- * _sqrt_recursion - returns the square root of n
- * @n: Number that square root is returned
+ * arine_func - acts as a tail function to return sqrt
+ * @a: First integer
+ * @b: second integer
  *
- * Return 0
+ * Return: 0
  */
 int arine_func(int b, int a)
 {
@@ -22,8 +23,14 @@ int arine_func(int b, int a)
 	return (0);
 }
 
+/**
+ * _sqrt_recursion - returns the square root of n
+ * @n: interger which sqrt is returned
+ *
+ * Return: 0
+ */
 int _sqrt_recursion(int n)
 {
 	return (arine_func(n, 0));
-	return(0);
-}	
+	return (0);
+}

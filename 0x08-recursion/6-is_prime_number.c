@@ -1,13 +1,10 @@
 #include "main.h"
 /**
- * is_prime_number - determines if n is a prime number
+ * arine_funz - determines if n is a prime number
  * and returns  and 0 if it is not
  * arine_funz - checks the code
  * @a:  acts as n
  * @b: acts well
- * @c{ acts well
- * @n: number to be checked if it is prime number or not
- *
  *
  * Return: 0
  */
@@ -40,7 +37,12 @@ int arine_funz(int a, int b)
 	}
 	return (0);
 }
-
+/**
+ * is_prime_number - calss arine_funz to check the sqrt of n
+ * @n: interger whose sqrt is checked
+ *
+ * Return: 0
+ */
 int is_prime_number(int n)
 {
 	return (arine_funz(n, 2));
