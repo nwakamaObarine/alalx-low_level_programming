@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <strings.h>
 /**
- * main prints all argument passed
+ * main - prints all argument passed
  * @argc: counts the command line argements passed
  * @argv: the command line arguements
  *

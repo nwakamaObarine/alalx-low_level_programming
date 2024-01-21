@@ -21,16 +21,19 @@ int main(int argc, char *argv[])
 	{
 		printf("0\n");
 	}
-	quartz = cents / 25;
-	cents = cents % 25;
-	dimes = cents / 10;
-	cents = cents % 10;
-	nikz = cents / 5;
-	cents = cents % 5;
-	twz = cents / 2;
-	cents = cents % 2;
-	onz = cents;
-	Result = quartz + dimes + nikz + twz + onz;
-	printf("%d\n", Result);
+	else
+	{
+		quartz = cents / 25;
+		cents = cents % 25;
+		dimes = cents / 10;
+		cents = cents % 10;
+		nikz = cents / 5;
+		cents = cents % 5;
+		twz = cents / 2;
+		cents = cents % 2;
+		onz = cents;
+		Result = quartz + dimes + nikz + twz + onz;
+		printf("%d\n", Result);
+	}
 	return (0);
 }
